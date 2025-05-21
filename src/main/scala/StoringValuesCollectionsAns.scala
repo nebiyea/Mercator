@@ -1,3 +1,0 @@
-class StoringValuesCollectionsAns extends App {
-
-}
