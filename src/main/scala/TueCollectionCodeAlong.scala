@@ -111,7 +111,7 @@ object TueCollectionCodeAlong extends App {
     println(prependValue)
 
     val prependSpecificReturnType: Seq[Seq[Int]] = newSeq +: Seq(firstSeq)
-    val plusOneFlatMap = prependSpecificReturnType.flatMap(.map( + 1)) //flatMap will escape out of the nested list, then we map through to add 1
+    val plusOneFlatMap = prependSpecificReturnType.flatMap(_.map(_ + 1)) //flatMap will escape out of the nested list, then we map through to add 1
     println(plusOneFlatMap)
     println(prependSpecificReturnType.flatten)//can use flatten rather than flatMap with nested structures
     //A flatMap basically maps and then flatterns

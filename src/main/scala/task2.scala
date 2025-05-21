@@ -1,6 +1,6 @@
 object task2 extends App {
 
-    val taxpayerForenames: Seq[String] = Seq(
+    val taxpayerForenames: Seq[String] = Seq(//tax payer list
       "Ahmet",
       "Mehmet",
       "Ayşe",
@@ -11,7 +11,7 @@ object task2 extends App {
       "Deniz"
     )
 
-    val uniqueForenames: Seq[String] = taxpayerForenames.distinct // move to name
+    val uniqueForenames: Seq[String] = taxpayerForenames.distinct // move to name duplicated
 
     println("Orijinal list:")
     println(taxpayerForenames)
@@ -172,7 +172,7 @@ object task2 extends App {
 
     //EXTENSION
     // Sets for Day 1 and Day 2 submissions
-    val day1Submissions = Set("John", "Emily", "Sophia")
+    val day1Submissions: Set[String] = Set("John", "Emily", "Sophia")
     val day2Submissions = Set("Emily", "Michael", "Sophia")
 
     // a) Who submitted on both days (intersection)
