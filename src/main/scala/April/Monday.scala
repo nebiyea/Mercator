@@ -1,3 +1,5 @@
+package April
+
 object Monday extends App {
     //VAL = BEST PRACTICE!!
     val melons = 5 * 50

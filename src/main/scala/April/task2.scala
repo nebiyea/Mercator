@@ -1,3 +1,5 @@
+package April
+
 object task2 extends App {
 
     val taxpayerForenames: Seq[String] = Seq(//tax payer list

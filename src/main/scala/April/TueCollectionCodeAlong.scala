@@ -1,3 +1,5 @@
+package April
+
 object TueCollectionCodeAlong extends App {
 
     val firstset: Set[Int] = Set(1, 2, 3, 4, 5)

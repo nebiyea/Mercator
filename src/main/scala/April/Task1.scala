@@ -1,3 +1,5 @@
+package April
+
 object Task1 extends App {
 
   val result =(3 + 4) * 57< 300
