@@ -11,7 +11,8 @@ object ByID extends App {
  // instansting the crome browser
   val driver:WebDriver= new ChromeDriver()
   driver.get("https://proleed.academy/exercises/selenium/selenium-element-id-locators-practice-form.php")
-  val emailAddress: WebElement =driver.findElement(By.id("email"))
+
+ val emailAddress: WebElement =driver.findElement(By.id("email"))
   println("Email adress enter")
  emailAddress.sendKeys("nebiyearslan@yahoo.com")
 
