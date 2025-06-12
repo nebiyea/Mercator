@@ -32,7 +32,7 @@ object Task3 extends App {
     println("Checkbox.")
   }
 
-  // Submit butonu kontrolü
+  // Submit butonu kontrol
   if (submitButton.isDisplayed && submitButton.isEnabled) {
     submitButton.click()
     println("Form gönderildi.")
