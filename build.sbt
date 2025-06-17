@@ -8,5 +8,6 @@ lazy val root = (project in file("."))
       "org.seleniumhq.selenium" % "selenium-java" % "4.20.0",
       "org.seleniumhq.selenium" % "selenium-support" % "4.20.0"
 
+
     )
   )
